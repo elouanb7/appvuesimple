@@ -55,7 +55,7 @@
 
 
     <div id="main">
-        <form v-cloak class="form">
+        <div class="form">
             <h1 class="mb-3">Itunes Music Scrapper</h1>
             <div class="bar">
                 <input type="search" class="form-control" aria-label="Default"
@@ -65,7 +65,7 @@
                        >
             </div>
             <input type="button" class="btn btn-success m-3" value="Search" @click="MySearchQuery">
-        </form>
+        </div>
         <div class="list-group" v-for="item in array">
             <div class="list-group-item list-group-item-action mb-2 " aria-current="true">
                 <div class="d-flex w-100">
